@@ -10,7 +10,7 @@ import SnapKit
 import RxCocoa
 import RxSwift
 
-class PersonalAuthViewController : BaseViewController {
+class PhoneNumViewController : BaseViewController {
     var greetingLabelL : UILabel!
     var greetingLabelS : UILabel!
     var telNumField : UITextField!
@@ -21,14 +21,20 @@ class PersonalAuthViewController : BaseViewController {
         super.viewDidLoad()
         configureUI()
         configureConstraint()
-        configureNavigationBar()
+        configureCloseButton()
         bindTextField()
+        configureUtil()
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        telNumField.becomeFirstResponder()
     }
     
     override func configureUI() {
         super.configureUI()
         
         self.view.backgroundColor = .systemBackground
+        
         greetingLabelL = UILabel()
         let text = "안녕하세요! \n전화번호를 입력해주세요."
         let attributedString = NSMutableAttributedString(string: text)
@@ -63,7 +69,7 @@ class PersonalAuthViewController : BaseViewController {
         
         nextButton = UIButton()
         nextButton.setTitle("본인 인증하기", for: .normal)
-        nextButton.isEnabled = false
+//        nextButton.isEnabled = false
         nextButton.titleLabel?.font = UIFont.pretendardSemiBold(size: 17)
         nextButton.layer.cornerCurve = .continuous
         nextButton.layer.cornerRadius = 23
@@ -102,15 +108,6 @@ class PersonalAuthViewController : BaseViewController {
         }
     }
     
-    func configureNavigationBar() {
-        let closeButton = UIBarButtonItem(barButtonSystemItem: .close, target: self, action: #selector(closeButtonTapped))
-        navigationItem.leftBarButtonItem = closeButton
-    }
-    
-    @objc func closeButtonTapped() {
-        dismiss(animated: true, completion: nil)
-    }
-    
     func bindTextField() {
         telNumField.rx.text.orEmpty
             .map { self.format(phoneNumber: $0) }
@@ -121,9 +118,9 @@ class PersonalAuthViewController : BaseViewController {
             .map { $0.count == 13 }
             .share(replay: 1)
         
-        phoneNumberValid
-            .bind(to: nextButton.rx.isEnabled)
-            .disposed(by: disposeBag)
+//        phoneNumberValid
+//            .bind(to: nextButton.rx.isEnabled)
+//            .disposed(by: disposeBag)
         
         phoneNumberValid
             .map { $0 ? UIColor.main : UIColor.gray }
@@ -173,10 +170,19 @@ class PersonalAuthViewController : BaseViewController {
         telNumField.layer.add(animation, forKey: "position")
     }
     
+    override func configureUtil() {
+        super.configureUtil()
+        nextButton.rx.tap.subscribe(onNext: { [weak self] in
+            let nextVC = AuthViewController()
+            nextVC.modalPresentationStyle = .fullScreen
+            nextVC.phoneNumber = String(self?.telNumField.text ?? "")
+            self?.navigationController?.pushViewController(nextVC, animated: true)
+        }).disposed(by: disposeBag)
+    }
 }
 
 
-extension PersonalAuthViewController : UITextFieldDelegate{
+extension PhoneNumViewController : UITextFieldDelegate{
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         // 현재 텍스트
         let currentText = textField.text ?? ""

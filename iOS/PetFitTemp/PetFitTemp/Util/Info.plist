@@ -14,6 +14,26 @@
         <string>Pretendard-SemiBold.otf</string>
         <string>Pretendard-Thin.otf</string>
         <string>PretendardVariable.otf</string>
+        <string>Roboto-Black.ttf</string>
+        <string>Roboto-BlackItalic.ttf</string>
+        <string>Roboto-Bold.ttf</string>
+        <string>Roboto-Italic.ttf</string>
+        <string>Roboto-Light.ttf</string>
+        <string>Roboto-LightItalic.ttf</string>
+        <string>Roboto-Medium.ttf</string>
+        <string>Roboto-MediumItalic.ttf</string>
+        <string>Roboto-Regular.ttf</string>
+        <string>Roboto-Thin.ttf</string>
+        <string>Roboto-ThinItalic.ttf</string>
+        <string>AppleSDGothicNeoB.ttf</string>
+        <string>AppleSDGothicNeoEB.ttf</string>
+        <string>AppleSDGothicNeoH.ttf</string>
+        <string>AppleSDGothicNeoL.ttf</string>
+        <string>AppleSDGothicNeoM.ttf</string>
+        <string>AppleSDGothicNeoR.ttf</string>
+        <string>AppleSDGothicNeoSB.ttf</string>
+        <string>AppleSDGothicNeoT.ttf</string>
+        <string>AppleSDGothicNeoUL.ttf</string>
     </array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

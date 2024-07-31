@@ -124,7 +124,7 @@ class LoginViewController : BaseViewController {
         super.configureUtil()
         
         startButton.rx.tap.subscribe(onNext: { [weak self] in
-            let nextVC = PersonalAuthViewController()
+            let nextVC = PhoneNumViewController()
             let navVC = UINavigationController(rootViewController: nextVC)
             navVC.modalPresentationStyle = .fullScreen
             self?.present(navVC, animated: false)

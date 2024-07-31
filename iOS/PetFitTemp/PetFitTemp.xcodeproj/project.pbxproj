@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1432FAE92C5A2E3400A5655B /* AppleSDGothicNeoB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1432FAE02C5A2E3300A5655B /* AppleSDGothicNeoB.ttf */; };
+		1432FAEA2C5A2E3400A5655B /* AppleSDGothicNeoR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1432FAE12C5A2E3400A5655B /* AppleSDGothicNeoR.ttf */; };
+		1432FAEB2C5A2E3400A5655B /* AppleSDGothicNeoH.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1432FAE22C5A2E3400A5655B /* AppleSDGothicNeoH.ttf */; };
+		1432FAEC2C5A2E3400A5655B /* AppleSDGothicNeoL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1432FAE32C5A2E3400A5655B /* AppleSDGothicNeoL.ttf */; };
+		1432FAED2C5A2E3400A5655B /* AppleSDGothicNeoM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1432FAE42C5A2E3400A5655B /* AppleSDGothicNeoM.ttf */; };
+		1432FAEE2C5A2E3400A5655B /* AppleSDGothicNeoT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1432FAE52C5A2E3400A5655B /* AppleSDGothicNeoT.ttf */; };
+		1432FAEF2C5A2E3400A5655B /* AppleSDGothicNeoEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1432FAE62C5A2E3400A5655B /* AppleSDGothicNeoEB.ttf */; };
+		1432FAF02C5A2E3400A5655B /* AppleSDGothicNeoSB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1432FAE72C5A2E3400A5655B /* AppleSDGothicNeoSB.ttf */; };
+		1432FAF12C5A2E3400A5655B /* AppleSDGothicNeoUL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1432FAE82C5A2E3400A5655B /* AppleSDGothicNeoUL.ttf */; };
+		1432FAF32C5A3A1400A5655B /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1432FAF22C5A3A1400A5655B /* UILabelExtension.swift */; };
 		148B57052C5885610098FF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B57042C5885610098FF88 /* AppDelegate.swift */; };
 		148B57072C5885610098FF88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B57062C5885610098FF88 /* SceneDelegate.swift */; };
 		148B57092C5885610098FF88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B57082C5885610098FF88 /* ViewController.swift */; };
@@ -31,10 +41,34 @@
 		148B57492C58917F0098FF88 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 148B57402C58917F0098FF88 /* Pretendard-Black.otf */; };
 		148B574A2C58917F0098FF88 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 148B57412C58917F0098FF88 /* Pretendard-Thin.otf */; };
 		148B574C2C58926D0098FF88 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B574B2C58926D0098FF88 /* UIFontExtension.swift */; };
-		148B574F2C589B180098FF88 /* PersonalAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B574E2C589B180098FF88 /* PersonalAuthViewController.swift */; };
+		148B574F2C589B180098FF88 /* PhoneNumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B574E2C589B180098FF88 /* PhoneNumViewController.swift */; };
+		148B57512C58B1950098FF88 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B57502C58B1950098FF88 /* AuthViewController.swift */; };
+		148B575F2C58BC020098FF88 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 148B57542C58BC020098FF88 /* Roboto-Medium.ttf */; };
+		148B57602C58BC020098FF88 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 148B57552C58BC020098FF88 /* Roboto-MediumItalic.ttf */; };
+		148B57612C58BC020098FF88 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 148B57562C58BC020098FF88 /* Roboto-ThinItalic.ttf */; };
+		148B57622C58BC020098FF88 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 148B57572C58BC020098FF88 /* Roboto-LightItalic.ttf */; };
+		148B57632C58BC020098FF88 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 148B57582C58BC020098FF88 /* Roboto-Black.ttf */; };
+		148B57642C58BC020098FF88 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 148B57592C58BC020098FF88 /* Roboto-BlackItalic.ttf */; };
+		148B57652C58BC020098FF88 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 148B575A2C58BC020098FF88 /* Roboto-Bold.ttf */; };
+		148B57662C58BC020098FF88 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 148B575B2C58BC020098FF88 /* Roboto-Regular.ttf */; };
+		148B57672C58BC020098FF88 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 148B575C2C58BC020098FF88 /* Roboto-Thin.ttf */; };
+		148B57682C58BC020098FF88 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 148B575D2C58BC020098FF88 /* Roboto-Light.ttf */; };
+		148B57692C58BC020098FF88 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 148B575E2C58BC020098FF88 /* Roboto-Italic.ttf */; };
+		148B576B2C58BED00098FF88 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B576A2C58BED00098FF88 /* UIColorExtension.swift */; };
+		148B576D2C58CDB90098FF88 /* NickNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B576C2C58CDB90098FF88 /* NickNameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1432FAE02C5A2E3300A5655B /* AppleSDGothicNeoB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleSDGothicNeoB.ttf; sourceTree = "<group>"; };
+		1432FAE12C5A2E3400A5655B /* AppleSDGothicNeoR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleSDGothicNeoR.ttf; sourceTree = "<group>"; };
+		1432FAE22C5A2E3400A5655B /* AppleSDGothicNeoH.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleSDGothicNeoH.ttf; sourceTree = "<group>"; };
+		1432FAE32C5A2E3400A5655B /* AppleSDGothicNeoL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleSDGothicNeoL.ttf; sourceTree = "<group>"; };
+		1432FAE42C5A2E3400A5655B /* AppleSDGothicNeoM.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleSDGothicNeoM.ttf; sourceTree = "<group>"; };
+		1432FAE52C5A2E3400A5655B /* AppleSDGothicNeoT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleSDGothicNeoT.ttf; sourceTree = "<group>"; };
+		1432FAE62C5A2E3400A5655B /* AppleSDGothicNeoEB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleSDGothicNeoEB.ttf; sourceTree = "<group>"; };
+		1432FAE72C5A2E3400A5655B /* AppleSDGothicNeoSB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleSDGothicNeoSB.ttf; sourceTree = "<group>"; };
+		1432FAE82C5A2E3400A5655B /* AppleSDGothicNeoUL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleSDGothicNeoUL.ttf; sourceTree = "<group>"; };
+		1432FAF22C5A3A1400A5655B /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 		148B57012C5885610098FF88 /* PetFitTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFitTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		148B57042C5885610098FF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		148B57062C5885610098FF88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +89,21 @@
 		148B57402C58917F0098FF88 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
 		148B57412C58917F0098FF88 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
 		148B574B2C58926D0098FF88 /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
-		148B574E2C589B180098FF88 /* PersonalAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalAuthViewController.swift; sourceTree = "<group>"; };
+		148B574E2C589B180098FF88 /* PhoneNumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumViewController.swift; sourceTree = "<group>"; };
+		148B57502C58B1950098FF88 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		148B57542C58BC020098FF88 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		148B57552C58BC020098FF88 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		148B57562C58BC020098FF88 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		148B57572C58BC020098FF88 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		148B57582C58BC020098FF88 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		148B57592C58BC020098FF88 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		148B575A2C58BC020098FF88 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		148B575B2C58BC020098FF88 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		148B575C2C58BC020098FF88 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		148B575D2C58BC020098FF88 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		148B575E2C58BC020098FF88 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		148B576A2C58BED00098FF88 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		148B576C2C58CDB90098FF88 /* NickNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickNameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +123,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1432FADF2C5A2E1F00A5655B /* AppleSDGothic */ = {
+			isa = PBXGroup;
+			children = (
+				1432FAE02C5A2E3300A5655B /* AppleSDGothicNeoB.ttf */,
+				1432FAE62C5A2E3400A5655B /* AppleSDGothicNeoEB.ttf */,
+				1432FAE22C5A2E3400A5655B /* AppleSDGothicNeoH.ttf */,
+				1432FAE32C5A2E3400A5655B /* AppleSDGothicNeoL.ttf */,
+				1432FAE42C5A2E3400A5655B /* AppleSDGothicNeoM.ttf */,
+				1432FAE12C5A2E3400A5655B /* AppleSDGothicNeoR.ttf */,
+				1432FAE72C5A2E3400A5655B /* AppleSDGothicNeoSB.ttf */,
+				1432FAE52C5A2E3400A5655B /* AppleSDGothicNeoT.ttf */,
+				1432FAE82C5A2E3400A5655B /* AppleSDGothicNeoUL.ttf */,
+			);
+			path = AppleSDGothic;
+			sourceTree = "<group>";
+		};
 		148B56F82C5885610098FF88 = {
 			isa = PBXGroup;
 			children = (
@@ -161,12 +225,34 @@
 			isa = PBXGroup;
 			children = (
 				148B57362C5889DB0098FF88 /* LoginViewController.swift */,
-				148B574E2C589B180098FF88 /* PersonalAuthViewController.swift */,
+				148B574E2C589B180098FF88 /* PhoneNumViewController.swift */,
+				148B57502C58B1950098FF88 /* AuthViewController.swift */,
+				148B576C2C58CDB90098FF88 /* NickNameViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
 		};
 		148B57382C5891740098FF88 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1432FADF2C5A2E1F00A5655B /* AppleSDGothic */,
+				148B57532C58BBF70098FF88 /* Roboto */,
+				148B57522C58BBEB0098FF88 /* Pretendard */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		148B574D2C5892A60098FF88 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				148B574B2C58926D0098FF88 /* UIFontExtension.swift */,
+				148B576A2C58BED00098FF88 /* UIColorExtension.swift */,
+				1432FAF22C5A3A1400A5655B /* UILabelExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		148B57522C58BBEB0098FF88 /* Pretendard */ = {
 			isa = PBXGroup;
 			children = (
 				148B57402C58917F0098FF88 /* Pretendard-Black.otf */,
@@ -179,15 +265,25 @@
 				148B57392C58917F0098FF88 /* Pretendard-SemiBold.otf */,
 				148B57412C58917F0098FF88 /* Pretendard-Thin.otf */,
 			);
-			path = Font;
+			path = Pretendard;
 			sourceTree = "<group>";
 		};
-		148B574D2C5892A60098FF88 /* Extension */ = {
+		148B57532C58BBF70098FF88 /* Roboto */ = {
 			isa = PBXGroup;
 			children = (
-				148B574B2C58926D0098FF88 /* UIFontExtension.swift */,
+				148B57582C58BC020098FF88 /* Roboto-Black.ttf */,
+				148B57592C58BC020098FF88 /* Roboto-BlackItalic.ttf */,
+				148B575A2C58BC020098FF88 /* Roboto-Bold.ttf */,
+				148B575E2C58BC020098FF88 /* Roboto-Italic.ttf */,
+				148B575D2C58BC020098FF88 /* Roboto-Light.ttf */,
+				148B57572C58BC020098FF88 /* Roboto-LightItalic.ttf */,
+				148B57542C58BC020098FF88 /* Roboto-Medium.ttf */,
+				148B57552C58BC020098FF88 /* Roboto-MediumItalic.ttf */,
+				148B575B2C58BC020098FF88 /* Roboto-Regular.ttf */,
+				148B575C2C58BC020098FF88 /* Roboto-Thin.ttf */,
+				148B57562C58BC020098FF88 /* Roboto-ThinItalic.ttf */,
 			);
-			path = Extension;
+			path = Roboto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,15 +359,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1432FAF02C5A2E3400A5655B /* AppleSDGothicNeoSB.ttf in Resources */,
 				148B57452C58917F0098FF88 /* Pretendard-ExtraLight.otf in Resources */,
 				148B57422C58917F0098FF88 /* Pretendard-SemiBold.otf in Resources */,
+				148B57642C58BC020098FF88 /* Roboto-BlackItalic.ttf in Resources */,
+				148B57622C58BC020098FF88 /* Roboto-LightItalic.ttf in Resources */,
+				148B57602C58BC020098FF88 /* Roboto-MediumItalic.ttf in Resources */,
 				148B57482C58917F0098FF88 /* Pretendard-ExtraBold.otf in Resources */,
 				148B57462C58917F0098FF88 /* Pretendard-Bold.otf in Resources */,
 				148B57492C58917F0098FF88 /* Pretendard-Black.otf in Resources */,
+				148B57672C58BC020098FF88 /* Roboto-Thin.ttf in Resources */,
+				148B57692C58BC020098FF88 /* Roboto-Italic.ttf in Resources */,
+				1432FAE92C5A2E3400A5655B /* AppleSDGothicNeoB.ttf in Resources */,
 				148B57442C58917F0098FF88 /* Pretendard-Medium.otf in Resources */,
+				1432FAEF2C5A2E3400A5655B /* AppleSDGothicNeoEB.ttf in Resources */,
 				148B57432C58917F0098FF88 /* Pretendard-Light.otf in Resources */,
+				148B57682C58BC020098FF88 /* Roboto-Light.ttf in Resources */,
+				1432FAED2C5A2E3400A5655B /* AppleSDGothicNeoM.ttf in Resources */,
+				1432FAEB2C5A2E3400A5655B /* AppleSDGothicNeoH.ttf in Resources */,
 				148B57472C58917F0098FF88 /* Pretendard-Regular.otf in Resources */,
+				1432FAEC2C5A2E3400A5655B /* AppleSDGothicNeoL.ttf in Resources */,
+				148B575F2C58BC020098FF88 /* Roboto-Medium.ttf in Resources */,
+				148B57632C58BC020098FF88 /* Roboto-Black.ttf in Resources */,
+				148B57612C58BC020098FF88 /* Roboto-ThinItalic.ttf in Resources */,
+				148B57652C58BC020098FF88 /* Roboto-Bold.ttf in Resources */,
+				1432FAEE2C5A2E3400A5655B /* AppleSDGothicNeoT.ttf in Resources */,
+				148B57662C58BC020098FF88 /* Roboto-Regular.ttf in Resources */,
+				1432FAEA2C5A2E3400A5655B /* AppleSDGothicNeoR.ttf in Resources */,
 				148B570E2C5885620098FF88 /* Assets.xcassets in Resources */,
+				1432FAF12C5A2E3400A5655B /* AppleSDGothicNeoUL.ttf in Resources */,
 				148B574A2C58917F0098FF88 /* Pretendard-Thin.otf in Resources */,
 				148B57112C5885620098FF88 /* Base in Resources */,
 			);
@@ -284,13 +400,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				148B574F2C589B180098FF88 /* PersonalAuthViewController.swift in Sources */,
+				148B576D2C58CDB90098FF88 /* NickNameViewController.swift in Sources */,
+				148B574F2C589B180098FF88 /* PhoneNumViewController.swift in Sources */,
 				148B57372C5889DB0098FF88 /* LoginViewController.swift in Sources */,
 				148B57092C5885610098FF88 /* ViewController.swift in Sources */,
+				1432FAF32C5A3A1400A5655B /* UILabelExtension.swift in Sources */,
 				148B574C2C58926D0098FF88 /* UIFontExtension.swift in Sources */,
 				148B57052C5885610098FF88 /* AppDelegate.swift in Sources */,
 				148B57072C5885610098FF88 /* SceneDelegate.swift in Sources */,
 				148B571F2C5887540098FF88 /* EmptyModel.swift in Sources */,
+				148B576B2C58BED00098FF88 /* UIColorExtension.swift in Sources */,
+				148B57512C58B1950098FF88 /* AuthViewController.swift in Sources */,
 				148B57342C58891A0098FF88 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

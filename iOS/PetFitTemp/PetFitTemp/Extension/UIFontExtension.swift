@@ -35,4 +35,65 @@ extension UIFont{
     static func pretendardSemiThin(size: CGFloat) -> UIFont {
         return UIFont(name: "Pretendard-Thin", size: size) ?? UIFont.systemFont(ofSize: size)
     }
+    static func robotoBlack(size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-Black", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func robotoBlackItalic(size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-BlackItalic", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func robotoBold(size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-Bold", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func robotoItalic(size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-Italic", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func robotoLight(size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-Light", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func robotoLightItalic(size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-LightItalic", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func robotoMedium(size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-Medium", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func robotoMediumItalic(size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-MediumItalic", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func robotoRegular(size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-Regular", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func robotoThin(size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-Thin", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func robotoThinItalic(size: CGFloat) -> UIFont {
+        return UIFont(name: "Roboto-ThinItalic", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func appleSDGothicNeoB(size: CGFloat) -> UIFont {
+        return UIFont(name: "AppleSDGothicNeo-Bold", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func appleSDGothicNeoEB(size: CGFloat) -> UIFont {
+        return UIFont(name: "AppleSDGothicNeoEB00", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func appleSDGothicNeoH(size: CGFloat) -> UIFont {
+        return UIFont(name: "AppleSDGothicNeoH00", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func appleSDGothicNeoL(size: CGFloat) -> UIFont {
+        return UIFont(name: "AppleSDGothicNeo-Light", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func appleSDGothicNeoM(size: CGFloat) -> UIFont {
+        return UIFont(name: "AppleSDGothicNeo-Medium", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func appleSDGothicNeoR(size: CGFloat) -> UIFont {
+        return UIFont(name: "AppleSDGothicNeo-Regular", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func appleSDGothicNeoSB(size: CGFloat) -> UIFont {
+        return UIFont(name: "AppleSDGothicNeoSB", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func appleSDGothicNeoT(size: CGFloat) -> UIFont {
+        return UIFont(name: "AppleSDGothicNeo-Thin", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    static func appleSDGothicNeoUL(size: CGFloat) -> UIFont {
+        return UIFont(name: "AppleSDGothicNeo-UltraLight", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    
 }
