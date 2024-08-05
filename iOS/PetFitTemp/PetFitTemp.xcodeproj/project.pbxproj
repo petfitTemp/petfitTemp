@@ -56,6 +56,15 @@
 		148B57692C58BC020098FF88 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 148B575E2C58BC020098FF88 /* Roboto-Italic.ttf */; };
 		148B576B2C58BED00098FF88 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B576A2C58BED00098FF88 /* UIColorExtension.swift */; };
 		148B576D2C58CDB90098FF88 /* NickNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B576C2C58CDB90098FF88 /* NickNameViewController.swift */; };
+		2EDFD6682C607FA000B341D9 /* EachPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFD65F2C607FA000B341D9 /* EachPageViewController.swift */; };
+		2EDFD6692C607FA000B341D9 /* CustomTapBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFD6602C607FA000B341D9 /* CustomTapBarViewController.swift */; };
+		2EDFD66A2C607FA000B341D9 /* MagazineCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFD6612C607FA000B341D9 /* MagazineCollectionView.swift */; };
+		2EDFD66B2C607FA000B341D9 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFD6622C607FA000B341D9 /* MainPageViewController.swift */; };
+		2EDFD66C2C607FA000B341D9 /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFD6632C607FA000B341D9 /* HealthViewController.swift */; };
+		2EDFD66D2C607FA000B341D9 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFD6642C607FA000B341D9 /* PostCell.swift */; };
+		2EDFD66E2C607FA000B341D9 /* PageControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFD6652C607FA000B341D9 /* PageControllerView.swift */; };
+		2EDFD66F2C607FA000B341D9 /* TabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFD6662C607FA000B341D9 /* TabCell.swift */; };
+		2EDFD6702C607FA000B341D9 /* MagazineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFD6672C607FA000B341D9 /* MagazineCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +113,15 @@
 		148B575E2C58BC020098FF88 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		148B576A2C58BED00098FF88 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		148B576C2C58CDB90098FF88 /* NickNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickNameViewController.swift; sourceTree = "<group>"; };
+		2EDFD65F2C607FA000B341D9 /* EachPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EachPageViewController.swift; sourceTree = "<group>"; };
+		2EDFD6602C607FA000B341D9 /* CustomTapBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTapBarViewController.swift; sourceTree = "<group>"; };
+		2EDFD6612C607FA000B341D9 /* MagazineCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineCollectionView.swift; sourceTree = "<group>"; };
+		2EDFD6622C607FA000B341D9 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		2EDFD6632C607FA000B341D9 /* HealthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthViewController.swift; sourceTree = "<group>"; };
+		2EDFD6642C607FA000B341D9 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		2EDFD6652C607FA000B341D9 /* PageControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControllerView.swift; sourceTree = "<group>"; };
+		2EDFD6662C607FA000B341D9 /* TabCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCell.swift; sourceTree = "<group>"; };
+		2EDFD6672C607FA000B341D9 /* MagazineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +180,7 @@
 				148B571D2C5886EE0098FF88 /* LaunchScreen */,
 				148B571C2C5886D40098FF88 /* Util */,
 				148B571B2C5886950098FF88 /* Asset */,
+				2EDFD6712C607FC500B341D9 /* Cell */,
 				148B571A2C58868E0098FF88 /* View */,
 				148B57192C58867D0098FF88 /* Model */,
 				148B57182C5886560098FF88 /* ViewModel */,
@@ -190,6 +209,7 @@
 			children = (
 				148B57352C5889780098FF88 /* Login */,
 				148B57332C58891A0098FF88 /* BaseViewController.swift */,
+				2EDFD65E2C607F3F00B341D9 /* Main */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -284,6 +304,29 @@
 				148B57562C58BC020098FF88 /* Roboto-ThinItalic.ttf */,
 			);
 			path = Roboto;
+			sourceTree = "<group>";
+		};
+		2EDFD65E2C607F3F00B341D9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2EDFD6622C607FA000B341D9 /* MainPageViewController.swift */,
+				2EDFD6602C607FA000B341D9 /* CustomTapBarViewController.swift */,
+				2EDFD65F2C607FA000B341D9 /* EachPageViewController.swift */,
+				2EDFD6632C607FA000B341D9 /* HealthViewController.swift */,
+				2EDFD6612C607FA000B341D9 /* MagazineCollectionView.swift */,
+				2EDFD6652C607FA000B341D9 /* PageControllerView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2EDFD6712C607FC500B341D9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2EDFD6672C607FA000B341D9 /* MagazineCell.swift */,
+				2EDFD6642C607FA000B341D9 /* PostCell.swift */,
+				2EDFD6662C607FA000B341D9 /* TabCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,12 +445,21 @@
 			files = (
 				148B576D2C58CDB90098FF88 /* NickNameViewController.swift in Sources */,
 				148B574F2C589B180098FF88 /* PhoneNumViewController.swift in Sources */,
+				2EDFD6702C607FA000B341D9 /* MagazineCell.swift in Sources */,
 				148B57372C5889DB0098FF88 /* LoginViewController.swift in Sources */,
 				148B57092C5885610098FF88 /* ViewController.swift in Sources */,
+				2EDFD6692C607FA000B341D9 /* CustomTapBarViewController.swift in Sources */,
+				2EDFD66D2C607FA000B341D9 /* PostCell.swift in Sources */,
 				1432FAF32C5A3A1400A5655B /* UILabelExtension.swift in Sources */,
+				2EDFD66F2C607FA000B341D9 /* TabCell.swift in Sources */,
+				2EDFD6682C607FA000B341D9 /* EachPageViewController.swift in Sources */,
 				148B574C2C58926D0098FF88 /* UIFontExtension.swift in Sources */,
+				2EDFD66C2C607FA000B341D9 /* HealthViewController.swift in Sources */,
+				2EDFD66B2C607FA000B341D9 /* MainPageViewController.swift in Sources */,
+				2EDFD66E2C607FA000B341D9 /* PageControllerView.swift in Sources */,
 				148B57052C5885610098FF88 /* AppDelegate.swift in Sources */,
 				148B57072C5885610098FF88 /* SceneDelegate.swift in Sources */,
+				2EDFD66A2C607FA000B341D9 /* MagazineCollectionView.swift in Sources */,
 				148B571F2C5887540098FF88 /* EmptyModel.swift in Sources */,
 				148B576B2C58BED00098FF88 /* UIColorExtension.swift in Sources */,
 				148B57512C58B1950098FF88 /* AuthViewController.swift in Sources */,
